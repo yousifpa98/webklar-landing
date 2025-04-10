@@ -1,0 +1,9 @@
+[build]
+  command = "npx vike build --preset netlify"
+  publish = "dist/client"
+  functions = "dist/server"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/ssr"
+  status = 200
