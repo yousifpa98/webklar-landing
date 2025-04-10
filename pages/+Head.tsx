@@ -29,7 +29,7 @@ export default function Head() {
       <meta name="twitter:description" content="Webklar liefert performante, moderne und SEO-optimierte Landingpages in nur 48 Stunden ab 49 €." />
       
       {/* Favicon */}
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/logo.png" />
     </>
   )
 }
