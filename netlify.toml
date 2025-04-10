@@ -1,5 +1,5 @@
 [build]
-  command = "npx vike build --preset netlify"
+  command = "npm run build"
   publish = "dist/client"
   functions = "dist/server"
 
