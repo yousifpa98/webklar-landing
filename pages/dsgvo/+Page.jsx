@@ -19,7 +19,7 @@ export default function DatenschutzPage() {
   const [copied, setCopied] = useState(false);
   
   const copyEmail = () => {
-    navigator.clipboard.writeText("hello@webklar.de");
+    navigator.clipboard.writeText("hello@webklar.app");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -88,7 +88,7 @@ export default function DatenschutzPage() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            Hier erfährst du, wie deine Daten auf webklar.de verarbeitet werden.
+            Hier erfährst du, wie deine Daten auf webklar.app verarbeitet werden.
           </motion.p>
         </motion.div>
         
@@ -135,7 +135,7 @@ export default function DatenschutzPage() {
               <div className="mt-2 pt-2 border-t border-zinc-800 flex items-center">
                 <span>E-Mail: </span>
                 <span className="ml-1 select-none">
-                  hello<span className="select-none text-gray-500"> [at] </span>webklar.de
+                  hello<span className="select-none text-gray-500"> [at] </span>webklar.app
                 </span>
                 <motion.button
                   onClick={copyEmail}
@@ -206,7 +206,7 @@ export default function DatenschutzPage() {
             onClick={() => toggleSection("email")}
             delay={0.9}
           >
-            <p>Wenn du mir per E-Mail (hello@webklar.de) schreibst, werden deine Angaben inklusive der von dir angegebenen Kontaktdaten gespeichert, um deine Anfrage zu bearbeiten. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. lit. f DSGVO (berechtigtes Interesse an Kommunikation).</p>
+            <p>Wenn du mir per E-Mail (hello@webklar.app) schreibst, werden deine Angaben inklusive der von dir angegebenen Kontaktdaten gespeichert, um deine Anfrage zu bearbeiten. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. lit. f DSGVO (berechtigtes Interesse an Kommunikation).</p>
           </Section>
           
           {/* 5. Cookies */}

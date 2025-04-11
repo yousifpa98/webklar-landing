@@ -3,7 +3,7 @@ export default function Head() {
   // Get current URL to use for canonical links
   const currentUrl = typeof window !== 'undefined' 
     ? window.location.href 
-    : 'https://webklar.de/anfragen';
+    : 'https://webklar.app/anfragen';
     
   return (
     <>

@@ -32,7 +32,7 @@ export default function KontaktPage() {
             title="Email"
             description="Wir antworten in der Regel innerhalb von 24 Stunden."
           >
-            <BotSafeEmail email="hello@webklar.de" />
+            <BotSafeEmail email="hello@webklar.app" />
           </ContactCard>
 
           <ContactCard 

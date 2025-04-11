@@ -6,7 +6,7 @@ export default function ImpressumPage() {
   const [copied, setCopied] = useState(false);
   
   const copyEmail = () => {
-    navigator.clipboard.writeText("hello@webklar.de");
+    navigator.clipboard.writeText("hello@webklar.app");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -80,7 +80,7 @@ export default function ImpressumPage() {
                   <p className="mb-2"><strong>E-Mail:</strong></p>
                   <div className="inline-flex items-center gap-2 bg-zinc-800/50 px-4 py-2 rounded-lg border border-zinc-700/50">
                     <span className="text-gray-300 select-none">
-                      hello<span className="select-none text-gray-500"> [at] </span>webklar.de
+                      hello<span className="select-none text-gray-500"> [at] </span>webklar.app
                     </span>
                     <motion.button
                       onClick={copyEmail}

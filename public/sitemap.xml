@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://webklar.de/</loc></url>
-  <url><loc>https://webklar.de/about</loc></url>
-  <url><loc>https://webklar.de/pakete</loc></url>
-  <url><loc>https://webklar.de/anfragen</loc></url>
-  <url><loc>https://webklar.de/kontakt</loc></url>
-  <url><loc>https://webklar.de/impressum</loc></url>
-  <url><loc>https://webklar.de/dsgvo</loc></url>
+  <url><loc>https://webklar.app/</loc></url>
+  <url><loc>https://webklar.app/about</loc></url>
+  <url><loc>https://webklar.app/pakete</loc></url>
+  <url><loc>https://webklar.app/anfragen</loc></url>
+  <url><loc>https://webklar.app/kontakt</loc></url>
+  <url><loc>https://webklar.app/impressum</loc></url>
+  <url><loc>https://webklar.app/dsgvo</loc></url>
 </urlset>
