@@ -579,7 +579,7 @@ function FinalStep({ onFinish, formData }) {
           Mit dem Absenden stimmst du zu, dass wir deine Daten zur Bearbeitung
           deiner Anfrage verwenden dürfen. Weitere Infos in unserer{" "}
           <a
-            href="/datenschutz"
+            href="/dsgvo"
             className="text-blue-400 hover:text-blue-300 transition-colors duration-200"
           >
             Datenschutzerklärung
