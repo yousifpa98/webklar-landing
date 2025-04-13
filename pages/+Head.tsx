@@ -49,7 +49,7 @@ export default function Head() {
 
       {/* Satsu */}
       <script
-        src="https://cdn.satsu.app/tracker.js"
+        src="https://cdn.satsu.pro/tracker.js"
         data-site="ED1JgjqjRV"
       ></script>
     </>
